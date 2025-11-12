@@ -1,0 +1,13 @@
+GET http://localhost:8080/users
+
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "email": "email@gmail12",
+    "dob": "2000-01-15"
+}
+
+GET http://localhost:8080/users/email&email=email@gmail12
